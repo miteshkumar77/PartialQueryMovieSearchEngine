@@ -1,0 +1,12 @@
+table_size 100
+occupancy .2
+movies 3k_example_movies.txt
+actors 3k_example_actors.txt
+query
+?
+?
+?
+1 Comedy
+0
+0
+quit

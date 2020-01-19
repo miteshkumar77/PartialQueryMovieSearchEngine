@@ -1,0 +1,50 @@
+compile: clang++ -g main.cpp -o m
+
+run with: compile: clang++ -g main.cpp -o m
+
+cin: 
+
+table_size <int> 
+occupancy <float>
+movies <movies file>
+movies <actors file>
+
+_________________________________Repeat for each query 
+query (kwd to initiate a query)
+<Title> or ? for wildcard
+<Year of Release> or ? for wildcard
+<Runtime in Minutes> or ? for wildcard
+<GenreCount int> <GenreList, string> or 0 for wildcard
+<ActorCount int> <ActorList, string> or 0 for wildcard
+<RoleCount int> <RoleList, string> o r 0 for wildcard
+
+_______________________________________________________
+
+quit (to quit)
+
+
+EXAMPLE: 
+
+./m 
+
+table_size 100
+occupancy .2
+movies 3k_example_movies.txt
+actors 3k_example_actors.txt
+query
+?
+?
+?
+1 Comedy
+0
+0
+query
+?
+1977
+?
+0
+0
+0
+quit
+
+
