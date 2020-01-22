@@ -1,6 +1,6 @@
 compile: clang++ -g main.cpp -o m
 
-run with: compile: clang++ -g main.cpp -o m
+run with: compile: ./m
 
 cin: 
 
